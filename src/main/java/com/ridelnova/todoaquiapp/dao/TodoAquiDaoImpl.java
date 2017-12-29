@@ -7,12 +7,19 @@ import org.springframework.stereotype.Repository;
 
 import com.ridelnova.todoaquiapp.dto.UbicacionesDto;
 import com.ridelnova.todoaquiapp.utils.SpringJdbc;
-
+/**
+ * <b>TodoAquiDaoImpl.java</b>  TODO descripcion del componente.
+ * @author Jovani Arzate C
+ * @version 1.0
+ * @ultimaModificacion 26 nov. 2017 20:03:44
+ * @Todo Aqui App
+ */
 @Repository
 public class TodoAquiDaoImpl extends SpringJdbc implements TodoAquiDao {
 
 	private String qrySelectUbicaciones = "SELECT * FROM UBICACIONES";
 	private String qryInsertUbicaciones = "INSERT UBICACIONES(DIRECCION, LATITUD, LONGITUD) VALUES(?,?,?)";
+	
 
 	@Override
 	public List<UbicacionesDto> consultarUbicacionesCercanas() {

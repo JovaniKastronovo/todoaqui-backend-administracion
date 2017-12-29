@@ -1,5 +1,11 @@
 package com.ridelnova.todoaquiapp.dto;
-
+/**
+ * <b>UbicacionesDto.java</b>  TODO descripcion del componente.
+ * @author Jovani Arzate C
+ * @version 1.0
+ * @ultimaModificacion 26 nov. 2017 20:03:24
+ * @Todo Aqui App
+ */
 public class UbicacionesDto {
 
 	private Integer idUbicacion;
